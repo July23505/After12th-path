@@ -1,0 +1,266 @@
+[
+  {
+    "id": "btech",
+    "name": "B.Tech / B.E. (PCM route)",
+    "category": "Engineering",
+    "duration": "4 years",
+    "streams": [
+      "PCM",
+      "PCMB"
+    ],
+    "requiredSubjects": [
+      "Physics",
+      "Chemistry",
+      "Mathematics"
+    ],
+    "subjectAlternatives": [],
+    "eligibility": "Class 12 with PCM for this sample route; marks and accepted subject combinations vary by institution.",
+    "entranceExams": [
+      "JEE Main",
+      "JEE Advanced for IITs",
+      "State / university entrance exams"
+    ],
+    "careerOptions": [
+      "Engineer",
+      "Software developer",
+      "Technical consultant"
+    ]
+  },
+  {
+    "id": "mbbs",
+    "name": "MBBS",
+    "category": "Medical and Allied Health",
+    "duration": "5.5 years including internship",
+    "streams": [
+      "PCB",
+      "PCMB"
+    ],
+    "requiredSubjects": [
+      "Physics",
+      "Chemistry",
+      "English"
+    ],
+    "subjectAlternatives": [
+      [
+        "Biology",
+        "Biotechnology"
+      ]
+    ],
+    "eligibility": "Class 12 with Physics, Chemistry, Biology/Biotechnology and English; practicals, qualifying marks, age and current NEET rules apply.",
+    "entranceExams": [
+      "NEET-UG"
+    ],
+    "careerOptions": [
+      "Doctor after registration",
+      "Medical researcher",
+      "Specialist after further study"
+    ]
+  },
+  {
+    "id": "bds",
+    "name": "BDS",
+    "category": "Medical and Allied Health",
+    "duration": "5 years including internship",
+    "streams": [
+      "PCB",
+      "PCMB"
+    ],
+    "requiredSubjects": [
+      "Physics",
+      "Chemistry",
+      "English"
+    ],
+    "subjectAlternatives": [
+      [
+        "Biology",
+        "Biotechnology"
+      ]
+    ],
+    "eligibility": "Class 12 with Physics, Chemistry, Biology/Biotechnology and English; qualifying marks, age and current admission rules apply.",
+    "entranceExams": [
+      "NEET-UG"
+    ],
+    "careerOptions": [
+      "Dentist after registration",
+      "Dental researcher",
+      "Specialist after further study"
+    ]
+  },
+  {
+    "id": "physics",
+    "name": "B.Sc. Physics",
+    "category": "Science",
+    "duration": "3\u20134 years, depending on university",
+    "streams": [
+      "PCM",
+      "PCMB"
+    ],
+    "requiredSubjects": [
+      "Physics",
+      "Mathematics"
+    ],
+    "subjectAlternatives": [],
+    "eligibility": "Class 12 with Physics and Mathematics; additional subjects and marks depend on the university.",
+    "entranceExams": [
+      "CUET-UG where accepted",
+      "University admission / merit"
+    ],
+    "careerOptions": [
+      "Research assistant",
+      "Laboratory professional",
+      "Physicist after higher study"
+    ]
+  },
+  {
+    "id": "design",
+    "name": "B.Des. (general design route)",
+    "category": "Design",
+    "duration": "4 years",
+    "streams": [
+      "PCM",
+      "PCB",
+      "PCMB",
+      "Commerce",
+      "Arts"
+    ],
+    "requiredSubjects": [],
+    "subjectAlternatives": [],
+    "eligibility": "Class 12 in any stream for many general design programmes; institution and specialisation rules vary.",
+    "entranceExams": [
+      "NID DAT",
+      "UCEED where accepted and eligible",
+      "Institution-specific tests"
+    ],
+    "careerOptions": [
+      "Product designer",
+      "Communication designer",
+      "UX designer"
+    ]
+  },
+  {
+    "id": "bba",
+    "name": "BBA (general route)",
+    "category": "Management",
+    "duration": "3\u20134 years, depending on university",
+    "streams": [
+      "PCM",
+      "PCB",
+      "PCMB",
+      "Commerce",
+      "Arts"
+    ],
+    "requiredSubjects": [],
+    "subjectAlternatives": [],
+    "eligibility": "Class 12 in any stream for many programmes; some institutions require Mathematics or other conditions.",
+    "entranceExams": [
+      "CUET-UG where accepted",
+      "University entrance / merit"
+    ],
+    "careerOptions": [
+      "Marketing executive",
+      "Business analyst",
+      "Operations executive"
+    ]
+  },
+  {
+    "id": "law",
+    "name": "B.A. LL.B. (integrated)",
+    "category": "Law",
+    "duration": "5 years",
+    "streams": [
+      "PCM",
+      "PCB",
+      "PCMB",
+      "Commerce",
+      "Arts"
+    ],
+    "requiredSubjects": [],
+    "subjectAlternatives": [],
+    "eligibility": "Class 12 in any stream; minimum marks and admission rules vary by institution.",
+    "entranceExams": [
+      "CLAT for participating NLUs",
+      "AILET for NLU Delhi",
+      "Other university / state tests"
+    ],
+    "careerOptions": [
+      "Advocate after professional requirements",
+      "Legal analyst",
+      "Corporate legal professional"
+    ]
+  },
+  {
+    "id": "nda",
+    "name": "NDA \u2014 Air Force / Naval route",
+    "category": "Defence and Aviation",
+    "duration": "3 years at NDA plus service-specific training",
+    "streams": [
+      "PCM",
+      "PCMB"
+    ],
+    "requiredSubjects": [
+      "Physics",
+      "Chemistry",
+      "Mathematics"
+    ],
+    "subjectAlternatives": [],
+    "eligibility": "Class 12 with PCM; current age, nationality, marital status, medical fitness, SSB and other UPSC conditions apply.",
+    "entranceExams": [
+      "UPSC NDA & NA examination",
+      "SSB selection and medical assessment"
+    ],
+    "careerOptions": [
+      "Air Force officer",
+      "Naval officer"
+    ]
+  },
+  {
+    "id": "bcom",
+    "name": "B.Com. (general route)",
+    "category": "Others",
+    "duration": "3\u20134 years, depending on university",
+    "streams": [
+      "PCM",
+      "PCB",
+      "PCMB",
+      "Commerce",
+      "Arts"
+    ],
+    "requiredSubjects": [],
+    "subjectAlternatives": [],
+    "eligibility": "Many institutions accept Class 12 from any stream; some require Commerce, Mathematics or specified subjects.",
+    "entranceExams": [
+      "CUET-UG where accepted",
+      "University entrance / merit"
+    ],
+    "careerOptions": [
+      "Accounts executive",
+      "Finance associate",
+      "Tax assistant"
+    ]
+  },
+  {
+    "id": "ba",
+    "name": "B.A. (general)",
+    "category": "Others",
+    "duration": "3\u20134 years, depending on university",
+    "streams": [
+      "PCM",
+      "PCB",
+      "PCMB",
+      "Commerce",
+      "Arts"
+    ],
+    "requiredSubjects": [],
+    "subjectAlternatives": [],
+    "eligibility": "Class 12 in any stream for many general BA programmes; subject-specific conditions can apply.",
+    "entranceExams": [
+      "CUET-UG where accepted",
+      "University entrance / merit"
+    ],
+    "careerOptions": [
+      "Content writer",
+      "Communications executive",
+      "Research assistant"
+    ]
+  }
+]

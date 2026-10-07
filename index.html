@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1E3A8A">
+  <title>After12Path — Find your options</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./">After12<span>Path</span></a><span class="header-note">Your next chapter starts here</span></header>
+  <main>
+    <section id="landing" class="hero" aria-labelledby="hero-title">
+      <div class="eyebrow">FOR INDIA'S NEXT GENERATION</div>
+      <h1 id="hero-title" tabindex="-1">Choose your stream.<br><span>See every path.</span></h1>
+      <p>There’s more than one way forward. Explore courses that match your Class 12 stream and subjects.</p>
+      <button id="start" class="primary">Find My Options <span aria-hidden="true">→</span></button>
+      <div class="hero-facts"><span>5 streams</span><span>8 categories</span><span>10 sample courses</span></div>
+      <div class="hero-panel"><span class="eyebrow">A LITTLE CLARITY. A LOT OF POSSIBILITY.</span><h2>Your subjects are a starting point.</h2><p>Discover engineering, science, design, law, management and more.</p></div>
+    </section>
+    <div id="journey" hidden>
+      <div class="progress-wrap"><ol class="steps"><li id="marker-1">1 · Stream</li><li id="marker-2">2 · Subjects</li><li id="marker-3">3 · Options</li></ol><div id="progress" role="progressbar" aria-label="Your progress" aria-valuemin="0" aria-valuemax="3" aria-valuenow="1"><div id="progress-fill"></div></div></div>
+      <section id="stream-step" aria-labelledby="stream-title" hidden>
+        <p class="eyebrow">STEP 01 / 02</p><h1 id="stream-title" tabindex="-1">What’s your stream?</h1><p class="intro">Choose the stream you studied in Class 12.</p>
+        <form id="stream-form"><fieldset><legend class="sr-only">Class 12 stream</legend><div id="stream-options" class="stream-grid"></div></fieldset><p id="stream-error" class="error" role="alert"></p><div class="actions"><button type="button" id="home" class="secondary">Back</button><button class="primary" type="submit">Choose Subjects →</button></div></form>
+      </section>
+      <section id="subject-step" aria-labelledby="subject-title" hidden>
+        <p class="eyebrow">STEP 02 / 02</p><h1 id="subject-title" tabindex="-1">Which subjects did you study?</h1><p class="intro" id="subject-intro"></p>
+        <form id="subject-form"><fieldset><legend>Select all your Class 12 subjects</legend><div id="subject-options" class="subject-grid"></div></fieldset><p id="subject-error" class="error" role="alert"></p><div class="actions"><button type="button" id="back-stream" class="secondary">← Change Stream</button><button id="show-results" class="primary" type="submit">See My Options →</button></div></form>
+      </section>
+      <section id="results-step" aria-labelledby="results-title" hidden>
+        <p class="eyebrow">YOUR NEXT CHAPTER</p><h1 id="results-title" tabindex="-1">Explore your options.</h1><p id="selection-summary" class="intro"></p>
+        <div class="notice">Phase 1 sample: matches use stream and subjects only. Final eligibility depends on marks, age, entrance results and each institution’s current rules. This catalogue has 10 examples, not every available course.</div>
+        <div class="results-top"><p id="result-count" role="status"></p><button type="button" id="edit-subjects" class="secondary">← Edit Subjects</button></div><div id="course-results"></div>
+      </section>
+    </div>
+    <div id="load-status" class="load-status" role="status">Loading course catalogue…</div><button id="retry" class="secondary" type="button" hidden>Retry loading</button>
+  </main>
+  <footer>After12Path · Phase 1 · Find a direction. Build your future.</footer>
+</body>
+</html>
