@@ -24,7 +24,8 @@
       "Engineer",
       "Software developer",
       "Technical consultant"
-    ]
+    ],
+    "description": "Turn scientific ideas into practical solutions. Explore how engineering disciplines use mathematics, technology and hands-on projects to solve real problems."
   },
   {
     "id": "mbbs",
@@ -54,7 +55,8 @@
       "Doctor after registration",
       "Medical researcher",
       "Specialist after further study"
-    ]
+    ],
+    "description": "Explore the science and practice of medicine, from understanding the human body to clinical learning and supervised patient care."
   },
   {
     "id": "bds",
@@ -84,13 +86,14 @@
       "Dentist after registration",
       "Dental researcher",
       "Specialist after further study"
-    ]
+    ],
+    "description": "Explore oral health, dental sciences and clinical care through a combination of scientific study and practical training."
   },
   {
     "id": "physics",
     "name": "B.Sc. Physics",
     "category": "Science",
-    "duration": "3\u20134 years, depending on university",
+    "duration": "3–4 years, depending on university",
     "streams": [
       "PCM",
       "PCMB"
@@ -109,7 +112,8 @@
       "Research assistant",
       "Laboratory professional",
       "Physicist after higher study"
-    ]
+    ],
+    "description": "Investigate matter, energy and the principles behind everyday phenomena. Build quantitative reasoning through theory, experiments and laboratory work."
   },
   {
     "id": "design",
@@ -135,13 +139,14 @@
       "Product designer",
       "Communication designer",
       "UX designer"
-    ]
+    ],
+    "description": "Combine creative thinking with practical problem-solving. Explore how research, visual communication and prototyping shape products and experiences."
   },
   {
     "id": "bba",
     "name": "BBA (general route)",
     "category": "Management",
-    "duration": "3\u20134 years, depending on university",
+    "duration": "3–4 years, depending on university",
     "streams": [
       "PCM",
       "PCB",
@@ -160,7 +165,8 @@
       "Marketing executive",
       "Business analyst",
       "Operations executive"
-    ]
+    ],
+    "description": "Understand how organisations operate. Explore management, marketing, finance and teamwork through business concepts and applied projects."
   },
   {
     "id": "law",
@@ -186,11 +192,12 @@
       "Advocate after professional requirements",
       "Legal analyst",
       "Corporate legal professional"
-    ]
+    ],
+    "description": "Connect humanities with legal study. Explore legal reasoning, institutions, research and the role of law in society."
   },
   {
     "id": "nda",
-    "name": "NDA \u2014 Air Force / Naval route",
+    "name": "NDA — Air Force / Naval route",
     "category": "Defence and Aviation",
     "duration": "3 years at NDA plus service-specific training",
     "streams": [
@@ -211,13 +218,14 @@
     "careerOptions": [
       "Air Force officer",
       "Naval officer"
-    ]
+    ],
+    "description": "Explore an officer-training route that combines academic study, leadership development and military training for the Air Force or Navy."
   },
   {
     "id": "bcom",
     "name": "B.Com. (general route)",
     "category": "Others",
-    "duration": "3\u20134 years, depending on university",
+    "duration": "3–4 years, depending on university",
     "streams": [
       "PCM",
       "PCB",
@@ -236,13 +244,14 @@
       "Accounts executive",
       "Finance associate",
       "Tax assistant"
-    ]
+    ],
+    "description": "Build a foundation in accounting, commerce and finance. Explore how businesses track performance, manage resources and make decisions."
   },
   {
     "id": "ba",
     "name": "B.A. (general)",
     "category": "Others",
-    "duration": "3\u20134 years, depending on university",
+    "duration": "3–4 years, depending on university",
     "streams": [
       "PCM",
       "PCB",
@@ -261,6 +270,7 @@
       "Content writer",
       "Communications executive",
       "Research assistant"
-    ]
+    ],
+    "description": "Explore people, ideas and society through humanities and social sciences. Subject choices shape the emphasis of your degree."
   }
 ]

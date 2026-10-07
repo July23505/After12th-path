@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#1E3A8A">
+  <meta name="theme-color" content="#10002B">
   <title>After12Path — Find your options</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -15,17 +15,18 @@
   <header class="site-header"><a class="brand" href="./">After12<span>Path</span></a><span class="header-note">Your next chapter starts here</span></header>
   <main>
     <section id="landing" class="hero" aria-labelledby="hero-title">
-      <div class="eyebrow">FOR INDIA'S NEXT GENERATION</div>
+      <div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> A CLEARER FUTURE, AFTER CLASS 12</div>
       <h1 id="hero-title" tabindex="-1">Choose your stream.<br><span>See every path.</span></h1>
-      <p>There’s more than one way forward. Explore courses that match your Class 12 stream and subjects.</p>
+      <p>Big decisions start with a little clarity. Connect your Class 12 subjects to courses, entrance exams and careers — and discover what your next chapter could look like.</p>
       <button id="start" class="primary">Find My Options <span aria-hidden="true">→</span></button>
       <div class="hero-facts"><span>5 streams</span><span>8 categories</span><span>10 sample courses</span></div>
-      <div class="hero-panel"><span class="eyebrow">A LITTLE CLARITY. A LOT OF POSSIBILITY.</span><h2>Your subjects are a starting point.</h2><p>Discover engineering, science, design, law, management and more.</p></div>
+      </div><aside class="hero-panel"><span class="eyebrow">A LITTLE CLARITY. A LOT OF POSSIBILITY.</span><div class="path-art" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span><span class="art-core">12<span>→ YOUR NEXT</span></span><span class="floating-tag tag-one">Create</span><span class="floating-tag tag-two">Discover</span><span class="floating-tag tag-three">Build</span></div><h2>One starting point.<br>Many possibilities.</h2><p>From building technology to shaping ideas, your next step can take more than one direction.</p><div class="panel-bottom"><span>YOUR FUTURE, YOUR DIRECTION</span><span aria-hidden="true">↗</span></div></aside>
+      <section class="how-it-works" aria-labelledby="how-title"><div class="section-heading"><p class="eyebrow">FROM QUESTIONS TO POSSIBILITIES</p><h2 id="how-title">A simpler way to explore.</h2><p>No account needed. Just your stream, your subjects and a little curiosity.</p></div><div class="guide-grid"><article><span class="guide-number">01</span><h3>Start with your stream</h3><p>Select PCM, PCB, PCMB, Commerce or Arts to set your starting point.</p></article><article><span class="guide-number">02</span><h3>Make it yours</h3><p>Confirm the subjects on your marksheet, including your electives.</p></article><article><span class="guide-number">03</span><h3>See the bigger picture</h3><p>Explore subject-matched courses, study timelines, entrance exams and career directions.</p></article></div><p class="catalogue-note">An introductory catalogue of 10 courses across 8 categories. Subject matches are a starting point; each institution sets its final admission requirements.</p></section>
     </section>
     <div id="journey" hidden>
       <div class="progress-wrap"><ol class="steps"><li id="marker-1">1 · Stream</li><li id="marker-2">2 · Subjects</li><li id="marker-3">3 · Options</li></ol><div id="progress" role="progressbar" aria-label="Your progress" aria-valuemin="0" aria-valuemax="3" aria-valuenow="1"><div id="progress-fill"></div></div></div>
       <section id="stream-step" aria-labelledby="stream-title" hidden>
-        <p class="eyebrow">STEP 01 / 02</p><h1 id="stream-title" tabindex="-1">What’s your stream?</h1><p class="intro">Choose the stream you studied in Class 12.</p>
+        <p class="eyebrow">STEP 01 / 02</p><h1 id="stream-title" tabindex="-1">What’s your stream?</h1><p class="intro">Your stream gives us a starting point. Next, you’ll confirm your actual subjects so the results reflect what you studied.</p>
         <form id="stream-form"><fieldset><legend class="sr-only">Class 12 stream</legend><div id="stream-options" class="stream-grid"></div></fieldset><p id="stream-error" class="error" role="alert"></p><div class="actions"><button type="button" id="home" class="secondary">Back</button><button class="primary" type="submit">Choose Subjects →</button></div></form>
       </section>
       <section id="subject-step" aria-labelledby="subject-title" hidden>
@@ -40,6 +41,6 @@
     </div>
     <div id="load-status" class="load-status" role="status">Loading course catalogue…</div><button id="retry" class="secondary" type="button" hidden>Retry loading</button>
   </main>
-  <footer>After12Path · Phase 1 · Find a direction. Build your future.</footer>
+  <footer><a class="brand" href="./">After12<span>Path</span></a><p>A little clarity for your next big step.</p><span>Phase 1 · 10 sample courses · Made for Indian students</span></footer>
 </body>
 </html>

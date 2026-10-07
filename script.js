@@ -60,7 +60,7 @@ function renderResults() {
   $('result-count').textContent = `${matches.length} matching ${matches.length === 1 ? 'course' : 'courses'} in the sample catalogue`;
   $('course-results').replaceChildren();
   if (!matches.length) {
-    $('course-results').append(element('p', 'empty', 'No matches in this sample catalogue. Edit your subjects or expand courses.json with more verified courses.'));
+    $('course-results').append(element('p', 'empty', 'No matches in this sample catalogue. Check your subject selection or explore another stream. Other course routes may exist beyond these examples.'));
     return;
   }
   categories.forEach(category => {
@@ -71,7 +71,8 @@ function renderResults() {
     const grid = element('div', 'course-grid');
     courses.forEach(course => {
       const card = element('article', 'course-card');
-      card.append(element('h3', '', course.name), element('span', 'duration', course.duration));
+      card.append(element('span', 'course-label', course.category), element('h3', '', course.name), element('span', 'duration', course.duration));
+      if (course.description) card.append(element('p', 'course-description', course.description));
       const details = element('dl');
       [['Eligibility', course.eligibility], ['Entrance exams', course.entranceExams.join('; ')], ['Career options', course.careerOptions.join(', ')]].forEach(([label, value]) => {
         details.append(element('dt', '', label), element('dd', '', value));
@@ -84,6 +85,7 @@ function renderResults() {
 function validCourse(course) {
   const stringList = value => Array.isArray(value) && value.every(item => typeof item === 'string');
   return course && ['name', 'duration', 'eligibility'].every(key => typeof course[key] === 'string')
+    && (course.description === undefined || typeof course.description === 'string')
     && categories.includes(course.category) && stringList(course.streams)
     && course.streams.every(stream => Object.hasOwn(streams, stream))
     && stringList(course.requiredSubjects) && course.requiredSubjects.every(subject => subjects.includes(subject))
